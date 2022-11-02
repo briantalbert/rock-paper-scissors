@@ -6,6 +6,8 @@
 .buttons {
     display: flex;
     flex-direction: row;
+    column-gap: 31px;
+    margin-bottom: 10px;
 }
 
 .results {

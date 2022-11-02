@@ -5,6 +5,7 @@ let scoresArray = [0, 0, 0]
 const scores = document.querySelectorAll(".score")
 scores.forEach(score => score.textContent = 0)
 document.querySelector(".winner").textContent = "Press a button above to play!"
+document.querySelector(".round").textContent = "Rock, Paper, Scissors!"
 
 const choiceButtons = document.querySelectorAll(".choice")
 choiceButtons.forEach(choice => choice.addEventListener('click', sendChoice => {
