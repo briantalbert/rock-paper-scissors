@@ -1,0 +1,52 @@
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+}
+
+.results {
+    display: flex;
+    flex-direction: column;
+}
+
+.round {
+    display: flex;
+    justify-content: center;
+}
+.winner {
+    display: flex;
+    justify-content: center;
+    margin: 5px 0 0 0;
+    padding: 0;
+}
+.results {
+    width: fit-content;
+    display: flex;
+    border-style: dashed;
+}
+.scoreboard {
+    width: fit-content;
+    display: flex;
+    flex-direction: row;
+}
+
+.player,
+.computer,
+.draw {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+
+}
+
+.score {
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    margin: 0;
+    padding: 0;
+}
